@@ -37,6 +37,9 @@ header p {
     border-radius: 15%;
 }
 @media screen and (max-width: 850px) {
+    header p {
+        font-size: 1.7em !important;
+    }
     .signup {
         display: flex;
         flex-direction: column;
@@ -54,7 +57,7 @@ header p {
         margin-right: 0!important;
     }
     .pitch {
-        font-size: 1.3em!important;
+        font-size: 1em!important;
     }
     .benefit p{
         font-size: 1em!important;
