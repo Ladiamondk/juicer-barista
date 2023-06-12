@@ -78,14 +78,17 @@ button {
     font-size: 1.1em;
     font-family: 'Courgette', cursive;
     margin-top: 5%;
+    box-shadow: 3px 2px 2px rgb(95, 64, 29);
     transition: height 300ms linear 150ms,
     width 300ms linear 150ms,
-    background-color 1s linear 150ms;
+    background-color 1s linear 150ms,
+    box-shadow 300ms linear 100ms;
 }
 button:hover{
     height: 45px;
     width: 32%;
     background-color: rgba(44, 224, 86, .8);
+    box-shadow: none;
     cursor: pointer;
 }
 .greeting {
