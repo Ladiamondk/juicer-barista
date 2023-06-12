@@ -78,6 +78,15 @@ button {
     font-size: 1.1em;
     font-family: 'Courgette', cursive;
     margin-top: 5%;
+    transition: height 300ms linear 150ms,
+    width 300ms linear 150ms,
+    background-color 1s linear 150ms;
+}
+button:hover{
+    height: 45px;
+    width: 32%;
+    background-color: rgba(44, 224, 86, .8);
+    cursor: pointer;
 }
 .greeting {
     display: flex;
