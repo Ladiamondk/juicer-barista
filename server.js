@@ -28,8 +28,8 @@ app.get('/', (req, res) => {
 app.post('/submit', async(req, res) => {
     try {
         const newUser = new User({
-            firstname: req.body.fname,
-            lastname: req.body.lname,
+            firstname: req.body.firstname,
+            lastname: req.body.lastname,
             email: req.body.email
         });
 
